@@ -1,0 +1,18 @@
+.grantsList {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grantsList__listItem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.grantsList__textListItem {
+    padding-left: 20px;
+}

@@ -1,0 +1,10 @@
+.finalization {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.finalization__item {
+   padding: 50px;
+   border: 1px solid #ddd;
+}

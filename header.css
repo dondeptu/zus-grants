@@ -1,0 +1,21 @@
+.header {
+    color: #fdfdfd;
+    background-color: #007834;
+    padding: 113px 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__header {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin: 0px 48px;
+}
+
+.header__container {
+    margin: 0px 48px;
+}
