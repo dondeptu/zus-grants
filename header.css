@@ -1,21 +1,38 @@
 .header {
+    /* to do: grid for page */
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     color: #fdfdfd;
     background-color: #007834;
-    padding: 113px 20px;
+    /* padding: 113px 20px; */
     font-weight: 400;
     font-size: 16px;
 }
 
 .header__header {
     color: #fff;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    margin: 0px 48px;
+    margin: 0px 48px 15px 48px;
+    padding-top: 113px;
 }
 
-.header__container {
-    margin: 0px 48px;
+.header__paragraph {
+    margin: 45px 48px 0px;
+    padding-bottom: 113px;
+    line-height: 1.5;
+    font-size: 21px;
+}
+
+.header__image {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
 }
