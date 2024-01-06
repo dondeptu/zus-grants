@@ -1,16 +1,24 @@
 .conditionsList {
     display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: repeat(2, 200px);
 }
 
 .conditionsList__imageBlock {
     display: flex;
+    flex-shrink: 0;
     height: 100px;
     width: 100%;
     max-width: 100px;
     justify-content: center;
     border-radius: 50%;
     background-color: #007834;
+}
+
+.conditionsList__textBlock {
+    padding-left: 20px;
+    font-size: 18px;
 }

@@ -15,7 +15,7 @@
 
 .section__header {
     padding: 0px 20px;
-    margin: 0px 48px 30px 48px;
+    margin: 0px 48px 50px 48px;
     font-size: 50px;
     line-height: 120%;
     color: #000;
@@ -40,7 +40,7 @@
     margin: 10px 48px;
     font-weight: 400;
     font-size: 26px;
-    color: #333;
+    color: #4d4d4d;
     line-height: 170%;
 }
 
