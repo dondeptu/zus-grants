@@ -44,6 +44,11 @@
     line-height: 170%;
 }
 
+.section__paragraph--importantWord {
+    color: #007834;
+    font-weight: 700;
+}
+
 .section__paragraph--textOnly {
     max-width: 77%;
 }
