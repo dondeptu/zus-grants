@@ -5,8 +5,8 @@
 }
 
 .grantsList__listItem {
-    display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     /* justify-content: center; */
     justify-items: center;
