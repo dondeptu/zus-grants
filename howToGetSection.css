@@ -1,0 +1,24 @@
+.howToGetSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+.howToGetSection__listItem {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.howToGetSection__textBox {
+    flex-basis: 100%;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(48px);
+    text-transform: uppercase;
+}
+
+.howToGetSection__image {
+    display: flex;
+}
