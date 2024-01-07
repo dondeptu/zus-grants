@@ -17,3 +17,8 @@
 .grantsList__textListItem {
     padding-left: 20px;
 }
+
+.grantsList__imageContainer {
+    display: flex;
+    min-height: 100%;
+}
