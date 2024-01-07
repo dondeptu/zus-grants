@@ -7,6 +7,14 @@
     grid-template-rows: repeat(2, 200px);
 }
 
+.conditionsList__listItem {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
 .conditionsList__imageBlock {
     display: flex;
     flex-shrink: 0;
