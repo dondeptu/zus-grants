@@ -8,8 +8,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    /* justify-content: center; */
-    justify-items: center;
     list-style-type: none;
     padding: 10px;
 }
@@ -20,5 +18,13 @@
 
 .grantsList__imageContainer {
     display: flex;
+    align-items: center;
     min-height: 100%;
+}
+
+.grantsList__headers {
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
 }

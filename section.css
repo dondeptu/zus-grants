@@ -57,6 +57,10 @@
     font-size: 21px;
 }
 
+.section__paragraph--grantsList {
+    font-size: 18px;
+}
+
 .section__paragraph--splited {
     margin: revert;
 }
