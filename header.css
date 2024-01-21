@@ -7,7 +7,6 @@
     grid-template-columns: 2fr 1fr;
     color: #fdfdfd;
     background-color: #007834;
-    /* padding: 113px 20px; */
     font-weight: 400;
     font-size: 16px;
 }
@@ -19,6 +18,8 @@
     text-transform: uppercase;
     margin: 0px 80px 15px 80px;
     padding-top: 113px;
+    position: relative;
+    top: 49px;
 }
 
 .header__header--subPage {
