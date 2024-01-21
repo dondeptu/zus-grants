@@ -20,7 +20,7 @@
 .section__header {
     padding: 0px 20px;
     margin: 0px 48px 50px 48px;
-    font-size: 50px;
+    font-size: 43px;
     line-height: 120%;
     color: #000;
     font-weight: 700;
@@ -100,6 +100,9 @@
 
 .section__footer {
     margin-bottom: 0px;
+    color: #fff;
+    background-color: #232323;
+    padding: 50px 0px;
 }
 
  .section__fontWeight {
@@ -110,6 +113,12 @@
     display: flex;
     justify-content: center;
     margin-top: 102px;
+ }
+
+ .section__buttonContainer--grid {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: revert;
  }
 
  .section__button {
@@ -136,4 +145,8 @@
     border-color: #000;
     background-color: #000;
     color: #fff;
+ }
+
+ .section__button--grid {
+    flex-basis: 300px;
  }
