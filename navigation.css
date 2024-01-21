@@ -35,11 +35,6 @@
     list-style-type: none;
 }
 
-/* TO DO: js na pogrubienie aktywnego */
-.navigation__listItem--first {
-    font-weight: 700;
-}
-
 .navigation__link {
     color: #000;
     text-decoration: none;
