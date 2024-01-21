@@ -1,5 +1,27 @@
 .footer {
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #232323;
+    padding-top: 50px;
+}
 
+.footer__innerHeader {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer__textAlign {
+    text-align: center;
+}
+
+.footer__paragraph {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 .footer__licenseBar {
@@ -19,4 +41,10 @@
 
 .footer__licenseLink:visited {
     color: #686868;
+}
+
+.footer__phoneNumber {
+    order: 1;
+    grid-column: 1 / span 3;
+    justify-self: center;
 }

@@ -69,23 +69,12 @@
     margin: revert;
 }
 
-.section__paragraph--footer {
-    color: #fff;
-    font-size: 18px;
-    padding-bottom: 3px;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-    align-items: center;
-    justify-items: center;
-}
-
 .section__background {
     background-color: #e5f3e9;
     padding: 50px 0px;
 }
 
-.section__background--darker{
+.section__background--darker {
     background-color: #007834;
     color: #fdfdfd;
 }
@@ -109,39 +98,23 @@
     max-width: 50%;
 }
 
-.section__footer {
-    margin-bottom: 0px;
-    color: #fff;
-    background-color: #232323;
-    padding-top: 50px;
-}
-
-.section__footerHeader2 {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.section__footerText {
-    text-align: center;
-}
-
- .section__fontWeight {
+.section__fontWeight {
     font-weight: normal;
- }
+}
 
- .section__buttonContainer {
+.section__buttonContainer {
     display: flex;
     justify-content: center;
     margin-top: 102px;
- }
+}
 
- .section__buttonContainer--grid {
+.section__buttonContainer--grid {
     flex-direction: row;
     justify-content: space-around;
     margin-top: revert;
- }
+}
 
- .section__button {
+.section__button {
     text-transform: uppercase;
     padding: 15px 35px;
     border: 1px solid #000;
@@ -153,26 +126,20 @@
     text-align: center;
     text-decoration: none;
     transition: border-color 300ms ease, color 300ms ease, background-color 300ms ease;
- }
+}
 
- .section__button:focus {
+.section__button:focus {
     border-color: #000;
     background-color: #000;
     color: #fff;
- }
+}
 
- .section__button:hover {
+.section__button:hover {
     border-color: #000;
     background-color: #000;
     color: #fff;
- }
+}
 
- .section__button--grid {
+.section__button--grid {
     flex-basis: 300px;
- }
-
- .section__phoneNumber {
-    order: 1;
-    grid-column: 1 / span 3;
-    justify-self: center;
- }
+}
