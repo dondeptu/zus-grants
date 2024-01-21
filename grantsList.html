@@ -13,6 +13,7 @@
     <title>Dotacje z ZUSu</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navigation.css">
     <link rel="stylesheet" href="section.css">
     <link rel="stylesheet" href="footer.css">
 </head>
@@ -20,8 +21,25 @@
 <body class="body">
 
     <header class="header">
-        <nav>
-            <!-- nawigacja po stronie TO DO -->
+        <nav class="navigation">
+            <div class="navigation__brand">
+                <a href="/#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
+            </div>
+            <ul class="navigation__list">
+                <li class="navigation__listItem navigation__listItem--first"><a href="/#strona-glowna"
+                        class="navigation__link">Strona główna</a></li>
+                <li class="navigation__listItem"><a href="/#dofinansowanie" class="navigation__link">Dofinansowanie</a>
+                </li>
+                <li class="navigation__listItem"><a href="/#warunki-udzialu" class="navigation__link">Warunki udziału</a>
+                </li>
+                <li class="navigation__listItem"><a href="/#dokumenty-z-zus" class="navigation__link">Dokumenty ZUS</a>
+                </li>
+                <li class="navigation__listItem"><a href="/#jak-uzyskac-dotacje" class="navigation__link">Jak uzyskać
+                        dotacje</a></li>
+                <li class="navigation__listItem"><a href="/#odplatnosc-za-wniosek"
+                        class="navigation__link">Odpłatność</a></li>
+                <li class="navigation__listItem"><a href="#kontakt" class="navigation__link">Kontakt</a></li>
+            </ul>
         </nav>
         <div class="header__container">
             <h1 class="header__header header__header--subPage">
@@ -140,7 +158,7 @@
             </ul>
         </section>
     </main>
-    <footer class="section footer">
+    <footer id="kontakt" class="section footer">
         <h3 class="section__header section__headerLight section__header--centered">Skontaktuj się z nami</h3>
         <section class="section__paragraph footer__paragraph">
             <div>
