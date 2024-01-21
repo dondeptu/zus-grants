@@ -48,3 +48,12 @@
     grid-column: 1 / span 3;
     justify-self: center;
 }
+
+.footer__phoneLink {
+    text-decoration: none;
+    color: #019742;
+}
+
+.footer__phoneLink:hover {
+    text-decoration: underline;
+}
