@@ -1,0 +1,22 @@
+.footer {
+
+}
+
+.footer__licenseBar {
+    background-color: #fdfdfd;
+    color: #686868;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.footer__licenseLink {
+    text-decoration: none;
+}
+
+.footer__licenseLink:focus {
+    text-decoration: underline;
+}
+
+.footer__licenseLink:visited {
+    color: #686868;
+}
