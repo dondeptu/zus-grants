@@ -11,7 +11,7 @@
 }
 
 .footer__textAlign {
-    text-align: center;
+    text-align: left;
 }
 
 .footer__paragraph {
@@ -19,9 +19,9 @@
     font-size: 18px;
     padding-bottom: 3px;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    align-items: center;
-    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    /* justify-items: center; */
 }
 
 .footer__licenseBar {
@@ -44,9 +44,11 @@
 }
 
 .footer__phoneNumber {
-    order: 1;
-    grid-column: 1 / span 3;
+    /* order: 1;
+    grid-column: 1 / span 3; */
     justify-self: center;
+    text-align: center;
+    align-self: center;
 }
 
 .footer__phoneLink {
@@ -56,4 +58,13 @@
 
 .footer__phoneLink:hover {
     text-decoration: underline;
+}
+
+.footer__icons {
+    display: flex;
+    /* min-width: 80%;
+    justify-content: space-evenly; */
+    align-self: center;
+    justify-content: flex-end;
+    column-gap: 15px;
 }
