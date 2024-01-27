@@ -119,6 +119,10 @@
     color: #007834;
 }
 
+.navigation__linkActive {
+    font-weight: 700;
+}
+
 .bx-menu {
     font-size: 24px;
 }
