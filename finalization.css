@@ -4,6 +4,12 @@
     grid-gap: 40px;
 }
 
+@media (max-width: 767px) {
+    .finalization {
+        grid-template-columns: 1fr;
+    }
+}
+
 .finalization__item {
    padding: 50px;
    border: 1px solid #ddd;

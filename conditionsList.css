@@ -7,12 +7,26 @@
     grid-template-rows: repeat(2, 200px);
 }
 
+@media (max-width: 767px) {
+    .conditionsList {
+        grid-row-gap: 20px;
+        grid-template-rows: repeat(5, 150px);
+        grid-template-columns: 1fr;
+    }
+}
+
 .conditionsList__listItem {
     display: flex;
     align-items: center;
     justify-items: center;
     list-style-type: none;
     padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .conditionsList__listItem {
+        padding: 0px;
+    }
 }
 
 .conditionsList__imageBlock {
@@ -27,7 +41,21 @@
     background-color: #007834;
 }
 
+@media (max-width: 767px) {
+    .conditionsList__imageBlock {
+        max-height: 80px;
+        flex-basis: 80px;
+    }
+}
+
 .conditionsList__textBlock {
     padding-left: 20px;
     font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .conditionsList__textBlock {
+        font-size: 16px;
+        align-self: center;
+    }
 }

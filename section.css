@@ -2,9 +2,21 @@
     margin: 120px 0px;
 }
 
+@media (max-width: 767px) {
+    .section {
+        margin: 55px 0px;
+    }
+}
+
 .section--position {
     position: relative;
     padding: 80px 0px;
+}
+
+@media (max-width: 767px) {
+    .section--position {
+        padding: 0px;
+    }
 }
 
 .section--subPage {
@@ -17,6 +29,12 @@
     grid-column-gap: 80px;
 }
 
+@media (max-width: 767px) {
+    .section__flexContainer {
+        flex-direction: column;
+    }
+}
+
 .section__header {
     padding: 0px 20px;
     margin: 0px 48px 50px 48px;
@@ -25,6 +43,14 @@
     color: #000;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        padding: 0px;
+        font-size: 30px;
+        margin: 0px 20px 25px 20px;
+    }
 }
 
 .section__header--centered {
@@ -39,6 +65,12 @@
     margin: revert;
 }
 
+@media (max-width: 767px) {
+    .section__header--splited {
+        font-size: 30px;
+    }
+}
+
 .section__paragraph {
     padding: 0px 20px;
     margin: 18px 60px;
@@ -46,6 +78,15 @@
     font-size: 26px;
     color: #4d4d4d;
     line-height: 170%;
+}
+
+@media (max-width: 767px) {
+    .section__paragraph {
+        margin: 18px 20px;
+        padding: 0px;
+        max-width: none;
+        font-size: 21px;
+    }
 }
 
 .section__paragraph--importantWord {
@@ -57,8 +98,20 @@
     max-width: 77%;
 }
 
+@media (max-width: 767px) {
+    .section__paragraph--textOnly {
+        max-width: 100%;
+    }
+}
+
 .section__paragraph--smallerFont {
     font-size: 21px;
+}
+
+@media (max-width: 767px) {
+    .section__paragraph--smallerFont {
+        font-size: 18px;
+    }
 }
 
 .section__paragraph--grantsList {
@@ -89,6 +142,12 @@
     z-index: -1;
 }
 
+@media (max-width: 767px) {
+    .section__background--box {
+        max-width: 0%;
+    }
+}
+
 .section__image {
     max-width: 100%;
     object-fit: cover;
@@ -96,6 +155,12 @@
 
 .section__image--half {
     max-width: 50%;
+}
+
+@media (max-width: 767px) {
+    .section__image--half {
+        max-width: 100%;
+    }
 }
 
 .section__fontWeight {
@@ -108,9 +173,17 @@
     margin-top: 102px;
 }
 
+@media (max-width: 767px) {
+    .section__buttonContainer {
+        margin-top: 33px;
+    }
+}
+
 .section__buttonContainer--grid {
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    grid-gap: 13px;
     margin-top: revert;
 }
 

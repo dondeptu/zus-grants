@@ -4,6 +4,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 767px) {
+    .grantsList {
+        grid-template-columns: 1fr;
+    }
+}
+
 .grantsList__listItem {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,8 +18,22 @@
     padding: 10px;
 }
 
+@media (max-width: 767px) {
+    .grantsList__listItem {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+}
+
 .grantsList__textListItem {
     padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .grantsList__textListItem {
+        padding-left: 0px;
+        margin-top: 13px;
+    }    
 }
 
 .grantsList__imageContainer {

@@ -14,6 +14,12 @@
     text-align: left;
 }
 
+@media (max-width:767px) {
+    .footer__textAlign {
+        text-align: center;
+    }
+}
+
 .footer__paragraph {
     color: #fff;
     font-size: 18px;
@@ -22,6 +28,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: flex-start;
     /* justify-items: center; */
+}
+
+@media (max-width: 767px) {
+    .footer__paragraph {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        font-size: 16px;
+    }
 }
 
 .footer__licenseBar {
@@ -67,4 +81,10 @@
     align-self: center;
     justify-content: flex-end;
     column-gap: 15px;
+}
+
+@media (max-width) {
+    .footer__icons {
+        justify-content: center;
+    }
 }
