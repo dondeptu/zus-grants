@@ -83,7 +83,7 @@
     column-gap: 15px;
 }
 
-@media (max-width) {
+@media (max-width: 767px) {
     .footer__icons {
         justify-content: center;
     }
