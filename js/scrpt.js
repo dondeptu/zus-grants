@@ -10,7 +10,7 @@
             });
         };
         document.onclick = (e) => {
-            if (!toggle.contains(e.target)) {
+            if (!toggle.contains(e.target) && !nav.contains(e.target)) {
                 nav.classList.toggle("navigation__show");
                 toggle.classList.toggle("bx-x");
             }
