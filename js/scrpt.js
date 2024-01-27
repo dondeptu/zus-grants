@@ -9,7 +9,7 @@
                 toggle.classList.toggle("bx-x");
             });
         };
-        document.onclick = function (e) {
+        document.onclick = (e) => {
             if (!toggle.contains(e.target)) {
                 nav.classList.toggle("navigation__show");
                 toggle.classList.toggle("bx-x");
@@ -27,12 +27,5 @@
         e.target.classList.add("navigation__linkActive");
     }
     navLinks.forEach(n => n.addEventListener("click", linkAction));
-
-
-    // document.onclick = function(e){
-    //     if (!toggle(e.target)){
-    //         nav.classList.toggle("navigation__show");
-
-    //     }
 
 }
