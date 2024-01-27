@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="navigation.css">
@@ -20,13 +21,14 @@
     <link rel="stylesheet" href="finalization.css">
     <link rel="stylesheet" href="howToGetSection.css">
     <link rel="stylesheet" href="footer.css">
+    <script defer src="js/scrpt.js"></script>
     <!-- TO DO: ikona strony og i udostępnianie na fb -->
 </head>
 
 <body id="strona-glowna" class="body">
     <header class="header">
-        <nav class="navigation">
-            <div>
+        <nav class="navigation navigation__hidden" id="nav-menu">
+            <div class="navigation__brandContainer">
                 <a href="#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
             </div>
             <ul class="navigation__list">
@@ -45,6 +47,12 @@
                 <li class="navigation__listItem"><a href="#kontakt" class="navigation__link">Kontakt</a></li>
             </ul>
         </nav>
+        <div class="navigation navigation__toggle">
+            <div>
+                <a href="#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
+            </div>
+            <i class="bx bx-menu" id="menu-toggle"></i>
+        </div>
         <div class="header__container">
             <h1 class="header__header">
                 <strong">ZUS -
