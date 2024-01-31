@@ -4,45 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotacje z ZUSu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
-    <title>Dotacje z ZUSu</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="navigation.css">
     <link rel="stylesheet" href="section.css">
     <link rel="stylesheet" href="footer.css">
+    <script defer src="js/scrpt.js"></script>
 </head>
 
 <body class="body">
-
     <header class="header">
-        <nav class="navigation">
-            <div class="navigation__brand">
-                <a href="/#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
+        <nav class="navigation navigation__hidden" id="nav-menu">
+            <div class="navigation__brandContainer">
+                <a href="index.html#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
             </div>
             <ul class="navigation__list">
-                <li class="navigation__listItem"><a href="/#strona-glowna" class="navigation__link">Strona główna</a>
+                <li class="navigation__listItem"><a href="index.html#strona-glowna"
+                        class="navigation__link js-navLink">Strona
+                        główna</a>
                 </li>
-                <li class="navigation__listItem"><a href="/#dofinansowanie" class="navigation__link">Dofinansowanie</a>
+                <li class="navigation__listItem"><a href="index.html#dofinansowanie"
+                        class="navigation__link js-navLink">Dofinansowanie</a>
                 </li>
-                <li class="navigation__listItem"><a href="/#warunki-udzialu" class="navigation__link">Warunki
+                <li class="navigation__listItem"><a href="index.html#warunki-udzialu"
+                        class="navigation__link js-navLink">Warunki
                         udziału</a>
                 </li>
-                <li class="navigation__listItem"><a href="/#dokumenty-z-zus" class="navigation__link">Dokumenty ZUS</a>
+                <li class="navigation__listItem"><a href="index.html#dokumenty-z-zus"
+                        class="navigation__link js-navLink">Dokumenty ZUS</a>
                 </li>
-                <li class="navigation__listItem"><a href="/#jak-uzyskac-dotacje" class="navigation__link">Jak uzyskać
+                <li class="navigation__listItem"><a href="index.html#jak-uzyskac-dotacje"
+                        class="navigation__link js-navLink">Jak
+                        uzyskać
                         dotacje</a></li>
-                <li class="navigation__listItem"><a href="/#odplatnosc-za-wniosek"
-                        class="navigation__link">Odpłatność</a></li>
-                <li class="navigation__listItem"><a href="#kontakt" class="navigation__link">Kontakt</a></li>
+                <li class="navigation__listItem"><a href="index.html#odplatnosc-za-wniosek"
+                        class="navigation__link js-navLink">Odpłatność</a></li>
+                <li class="navigation__listItem"><a href="#kontakt"
+                        class="navigation__link js-navLink">Kontakt</a></li>
             </ul>
         </nav>
-        <div class="header__container">
+        <div class="navigation navigation__toggle">
+            <div>
+                <a href="index.html#strona-glowna" class="navigation__brand">Dotacje z ZUSu</a>
+            </div>
+            <i class="bx bx-menu" id="menu-toggle"></i>
+        </div>
+        <div class="header__container header__container--subPage">
             <h1 class="header__header header__header--subPage">
                 W ramach konkursu można uzyskać
                 dofinansowanie np.:
