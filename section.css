@@ -1,5 +1,6 @@
 .section {
-    margin: 120px 0px;
+    margin: 70px 0px;
+    padding-top: 50px;
 }
 
 @media (max-width: 767px) {
@@ -21,6 +22,7 @@
 
 .section--subPage {
     margin: 60px 0px;
+    padding-top: 0px;
 }
 
 .section__flexContainer {
@@ -36,7 +38,7 @@
 }
 
 .section__header {
-    padding: 0px 20px;
+    padding: 50px 20px 0px 20px;
     margin: 0px 48px 50px 48px;
     font-size: 43px;
     line-height: 120%;
@@ -111,6 +113,7 @@
 @media (max-width: 767px) {
     .section__paragraph--smallerFont {
         font-size: 18px;
+        padding: 0px 5px;
     }
 }
 
